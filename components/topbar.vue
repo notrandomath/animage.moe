@@ -2,10 +2,14 @@
     <div class="topbar">
       <div class="emptyLeft"/>
       <div class="center">
-        <img src="@/assets/logo.png" alt="">
+        <NuxtLink to="/"><img src="@/assets/logo.png" alt=""></NuxtLink>
       </div>
       <div class="right">
-        <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/about">About</NuxtLink></h2>
+        <div class="dropdown">
+            <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/about">About</NuxtLink></h2>
+            <Icon name="ic:baseline-arrow-drop-down" color="black" size="24px" />
+        </div>
+        
         <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/members">Members</NuxtLink></h2>
         <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/contact">Contact</NuxtLink></h2>
         <div class="boxedText">
@@ -44,11 +48,19 @@
       align-items: top;
       justify-content: space-between;
     }
+    .dropdown{
+        height: fit-content;
+        background-color: green;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
   
     img{
+      background-color: white;
       margin-top: 5px;
       height: 65%;
-      border-radius: 50%;
+      border-radius: 30px;
     }
   
     h2 {
