@@ -25,15 +25,24 @@
     img{
         width: 300px;
         height: auto;
+        z-index: 1;
     }
     h2{
-        color: black;
+        color: white;
         text-decoration: none;
         position: absolute;
         width: 50%;
         top: 50;
         bottom: 50;
     }
+    .card:hover{
+        background-color: var(--logoColor);  
+    }
+    .card:hover img{
+        z-index: 0;
+        opacity: 0.2;
+    }
+
 </style>
 
 <script>

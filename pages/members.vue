@@ -11,7 +11,7 @@
 .grid { 
   margin: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
   align-items: start;
   justify-content: center;
