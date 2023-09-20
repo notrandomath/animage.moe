@@ -1,5 +1,5 @@
 <template>
     <h1>
-        Contact us at animage@gmail.com
+        Contact us through email at: animage@gmail.com
     </h1>
 </template>
