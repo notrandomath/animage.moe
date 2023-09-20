@@ -1,10 +1,12 @@
 <template>
-    <div class="grid">
-        <div class="content" v-for="member in member_data">
-            <MemberCard class="card" :member="member"></MemberCard>
-        </div>
-        <div class="duplicated_content" v-for="member in member_data">
-            <MemberCard class="card" :member="member"></MemberCard>
+    <div class="wrapper">
+        <div class="grid">
+            <div class="content" v-for="member in member_data">
+                <MemberCard class="card" :member="member"></MemberCard>
+            </div>
+            <div class="duplicated_content" v-for="member in member_data">
+                <MemberCard class="card" :member="member"></MemberCard>
+            </div>
         </div>
     </div>
 </template>
@@ -25,6 +27,11 @@ export default{
 	0% { transform: translateX(calc(-300px * 5))}
     100% { transform: translateX(calc(0))}
 }
+.wrapper{
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
 .grid { 
   animation: scroll 20s linear infinite;
   display: grid;
@@ -33,6 +40,7 @@ export default{
   grid-gap: 20px;
   align-items: start;
   height: 600px;
+  
 }
 h1 {
     margin-top: 50px;
