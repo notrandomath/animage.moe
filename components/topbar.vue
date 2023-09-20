@@ -19,7 +19,7 @@
   
 <style scoped>
   .topbar{
-    background: linear-gradient(180deg, #640000 70.31%, rgba(217, 217, 217, 0.00) 100%);
+    background: linear-gradient(180deg, var(--logoColor) 70.31%, rgba(217, 217, 217, 0.00) 100%);
 
     display: flex;
     height: 30vh;

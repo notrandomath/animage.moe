@@ -1,11 +1,13 @@
 <template>
   <Topbar />
   <NuxtPage />
+  <Footer />
 </template>
 
 <style>
 :root {
   --textColor: #F8E5EE;
+  --logoColor: #790000;
 }
 
 body {
