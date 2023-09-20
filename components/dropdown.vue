@@ -1,5 +1,12 @@
-<script setup>
-const showDropdown = ref(false)
+<script>
+export default {
+  name: 'dropdown',
+  data () {
+    return {
+      showDropdown: false
+    }
+  }
+}
 </script>
 
 <template>

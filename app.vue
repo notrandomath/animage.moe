@@ -8,6 +8,7 @@
 :root {
   --textColor: #F8E5EE;
   --logoColor: #790000;
+  --frameColor: #f1d9d9;
 }
 
 body {
