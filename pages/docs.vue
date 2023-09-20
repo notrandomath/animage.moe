@@ -1,5 +1,5 @@
 <template>
-    <h1>This page contains official documents used by Cal Animage officials</h1>
+    <h1>This page contains documents used by Cal Animage officials</h1>
     <DropdownDocument
         title="Network Information"
         description="Information on the current status of how many clubs there are as well as locations"

@@ -53,6 +53,7 @@
     }
 
     h2{
+        z-index: -1;
         color: white;
         text-decoration: none;
         position: absolute;
@@ -66,6 +67,9 @@
     .card:hover img{
         z-index: 0;
         opacity: 0.2;
+    }
+    .card:hover h2{
+        z-index: 1;
     }
 
 </style>
