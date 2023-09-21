@@ -2,7 +2,7 @@
     <div class="topbar">
       <div class="emptyLeft"/>
       <div class="center">
-        <NuxtLink to="/"><img src="../public/images/logo.png" alt=""></NuxtLink>
+        <NuxtLink to="/"><img src="~/assets/logo.png" alt=""></NuxtLink>
       </div>
       <div class="right">
         <Dropdown/>
