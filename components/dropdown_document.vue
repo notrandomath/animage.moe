@@ -32,6 +32,7 @@ export default {
 
 <style scoped>
 .documentFrame{
+    cursor: pointer;
     margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 1%;
