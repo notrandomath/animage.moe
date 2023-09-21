@@ -32,7 +32,8 @@ export default {
         height: fit-content;        
     }
     .label{
-]       display: flex;
+        cursor: pointer;
+        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
