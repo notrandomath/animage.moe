@@ -7,7 +7,7 @@
                     <img
                     v-for="(picture, index) in pictures"
                     :key="index"
-                    :src="folder + '/' + picture" alt="picture"
+                    :src="'../../' + folder + '/' + picture" alt="picture"
                     :style="{ zIndex: index === currentIndex ? 1 : 0 }"
                     class="carousel-image"
                     v-show="index === currentIndex"

@@ -3,7 +3,7 @@
         <div class="card">
             <div class="border" v-if="member.council"></div>
             <div class="imgContainer">
-                <img :src="'club_logos/' + member.logo" alt="pic">
+                <img :src="'../../club_logos/' + member.logo" alt="pic">
             </div>
             <h2>{{ member.name }}</h2>
         </div>

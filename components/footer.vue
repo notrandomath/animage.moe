@@ -9,7 +9,7 @@
     </div>
     <div class="footer">
         <div class="left">
-            <img src="images/logo.png" alt="">
+            <img src="../../images/logo.png" alt="">
             <div class="socials">
                 <a href="https://discord.gg/P2ZP4PXF98"><Icon name="ic:baseline-discord" color="var(--logoColor)" size="30px"/></a>
                 <a href="https://www.instagram.com/anime.uci/"><Icon name="mdi:instagram" color="var(--logoColor)" size="30px"/></a>
