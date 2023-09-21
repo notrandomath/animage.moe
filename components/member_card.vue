@@ -1,13 +1,13 @@
 <script>
+
 export default {
-  name: 'member_card',
-  props: ['member'],
+    name: 'member_card',
+    props: ['member', 'index'],
 }
-const github = ref(false);
 </script>
 
 <template>
-    <a :href="member.website">
+    <NuxtLink :to="{ path: 'member_info', query: {index: index}}" :member="member">
         <div class="card">
             <div class="border" v-if="member.council"></div>
             <div class="imgContainer">
@@ -15,7 +15,7 @@ const github = ref(false);
             </div>
             <h2>{{ member.name }}</h2>
         </div>
-    </a>
+    </NuxtLink>
 </template>
 
 <style scoped>

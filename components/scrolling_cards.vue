@@ -1,11 +1,11 @@
 <template>
     <div class="wrapper">
         <div class="grid">
-            <div class="content" v-for="member in member_data">
-                <MemberCard class="card" :member="member"></MemberCard>
+            <div class="content" v-for="(member, index) in member_data">
+                <MemberCard class="card" :member="member" :index="index"></MemberCard>
             </div>
-            <div class="duplicated_content" v-for="member in member_data">
-                <MemberCard class="card" :member="member"></MemberCard>
+            <div class="duplicated_content" v-for="(member, index) in member_data">
+                <MemberCard class="card" :member="member" :index="index"></MemberCard>
             </div>
         </div>
     </div>

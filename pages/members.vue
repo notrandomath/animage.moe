@@ -1,17 +1,25 @@
 <template>
-    <h1>Current Members</h1>
-    <div class="label">
-        <div class="ellipse"></div>
-        <h2>= leading member</h2>
-    </div>
-    <div class="grid">
-        <div class="content" v-for="member in member_data">
-            <MemberCard class="card" :member="member"></MemberCard>
+    <div class="members">
+        <h1>Current Members</h1>
+        <div class="label">
+            <div class="ellipse"></div>
+            <h2>= leading member</h2>
+        </div>
+        <div class="grid">
+            <div class="content" v-for="(member, index) in member_data">
+                <MemberCard class="card" :member="member" :index="index"></MemberCard>
+            </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+.members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .ellipse{ 
     width: 25px;
     height: 25px;
@@ -22,16 +30,18 @@
 .label{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .grid { 
+  width: 100%;
   margin: 50px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
-  align-items: start;
-  justify-content: center;
-  align-items: center;
+  place-items: center;
 }
 h1 {
     margin-top: 50px;

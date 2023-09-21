@@ -30,6 +30,7 @@
     h2{
         font-size: 30px;
         @media screen and (max-width: 700px) {
+            width: 100%;
             text-align: center;
         }
     }
