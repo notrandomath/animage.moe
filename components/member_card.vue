@@ -1,9 +1,17 @@
+<script>
+export default {
+  name: 'member_card',
+  props: ['member'],
+}
+const github = ref(false);
+</script>
+
 <template>
     <a :href="member.website">
         <div class="card">
             <div class="border" v-if="member.council"></div>
             <div class="imgContainer">
-                <img :src="'/animage.moe/club_logos/' + member.logo" alt="pic">
+                <img :src="'/animage.moe/' + 'club_logos/' + member.logo" alt="pic">
             </div>
             <h2>{{ member.name }}</h2>
         </div>
@@ -73,10 +81,3 @@
     }
 
 </style>
-
-<script>
-export default {
-  name: 'member_card',
-  props: ['member'],
-}
-</script>

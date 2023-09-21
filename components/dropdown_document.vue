@@ -49,4 +49,13 @@ export default {
     flex-direction: column;
     flex: 1;
 }
+.document{
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
 </style>

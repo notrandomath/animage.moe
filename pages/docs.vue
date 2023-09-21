@@ -16,5 +16,3 @@
         embed="https://docs.google.com/spreadsheets/d/e/2PACX-1vQEtV0cEo8VZGxbA8VvgdSKxzqxjM2OjEcsuV75Ng3PNmF14FWcvSJUl8l0-2quupGYguxnCKjbSDif/pubhtml?widget=true&amp;headers=false"
     />
 </template>
-<style>
-</style>

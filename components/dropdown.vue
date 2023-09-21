@@ -26,7 +26,7 @@ export default {
     </div>
 </template>
 
-<style>
+<style scoped>
     .dropdown{
         width: fit-content;
         height: fit-content;        

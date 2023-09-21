@@ -43,6 +43,10 @@ export default {
 </script>
   
 <style scoped>
+  .gallery{
+    width: 49%;
+    aspect-ratio: 14/10;
+  }
   .carousel-controls {
     display: flex;
     flex-direction: row;
@@ -65,8 +69,7 @@ export default {
   .image-carousel {
     background-color: var(--frameColor);
     position: relative;
-    width: 500px;
-    height: 500px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
