@@ -24,23 +24,22 @@ export default{
 
 <style scoped>
 @keyframes scroll {
-	0% { transform: translateX(calc(-300px * 5))}
+	0% { transform: translateX(calc(-322px * 5))}
     100% { transform: translateX(calc(0))}
 }
 .wrapper{
-    overflow: hidden;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
 
-.grid { 
-  animation: scroll 20s linear infinite;
+.grid {
+  animation: scroll 10s linear infinite;
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: auto auto;
   grid-gap: 20px;
   align-items: start;
   height: 600px;
-  
 }
 h1 {
     margin-top: 50px;

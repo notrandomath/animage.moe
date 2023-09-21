@@ -17,6 +17,7 @@
 </template>
 
 <style scoped>
+
 .mission {
   margin-left: 10%;
   width: 80%;
