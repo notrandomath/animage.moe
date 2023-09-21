@@ -12,5 +12,11 @@
   padding-bottom: 2%;
   background-color: var(--frameColor);
   border-radius: 50px;
+  @media screen and (max-width: 700px) {
+    width: 76%;
+    margin-left: 2%;
+    padding: 10%;
+  }
 }
+
 </style>

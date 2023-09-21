@@ -58,11 +58,12 @@ const github = ref(false);
         width: 300px;
         height: auto;
         z-index: 1;
+        opacity: 0.5;
     }
 
     h2{
-        z-index: -1;
-        color: white;
+        z-index: 1;
+        color: black;
         text-decoration: none;
         position: absolute;
         width: 50%;
@@ -70,14 +71,14 @@ const github = ref(false);
         bottom: 50;
     }
     .card:hover{
-        background-color: var(--logoColor);  
+        background-color: var(--logoColor);
     }
     .card:hover img{
         z-index: 0;
         opacity: 0.2;
     }
-    .card:hover h2{
-        z-index: 1;
-    }
 
+    .card:hover h2{
+        color: white;
+    }
 </style>

@@ -22,6 +22,9 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
 }
 </style>
 

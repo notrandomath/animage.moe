@@ -38,11 +38,23 @@ export default {
     margin-bottom: 1%;
     width: 80%;
     background-color: var(--frameColor);
+    @media screen and (max-width: 700px) {
+        width: 94%;
+        margin-left: 3%;
+        font-size: 10px;
+    }
 }
+
 .labelAndIcon{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 2%;
+}
+.icon{
+    @media screen and (max-width: 700px) {
+        width: 30%
+    }
 }
 .label{
     display: flex;
@@ -53,6 +65,10 @@ export default {
     margin-left: 10%;
     width: 80%;
     height: 500px;
+    @media screen and (max-width: 700px) {
+        width: 98%;
+        margin-left: 1%;
+    }
 }
 iframe{
     width: 100%;

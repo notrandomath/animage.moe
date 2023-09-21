@@ -36,12 +36,21 @@
 }
 .items{
     text-align: left;
+    @media screen and (max-width: 700px) {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 input{
     width: 71%;
     margin-right: 2%;
     height: 25px;
     background-color: var(--textColor);
+    @media screen and (max-width: 700px) {
+        margin-right: 0;
+    }
 }
 button{
     width: 25%;
@@ -51,6 +60,9 @@ button{
 }
 p{
     font-size: 10px;
+    @media screen and (max-width: 700px) {
+        width: 71%;
+    }
 }
 img{
     height: 75px;
@@ -61,6 +73,11 @@ img{
     width: 90%;
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: 700px) {
+        width: 98%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
 .left{
     display: flex;
@@ -74,5 +91,15 @@ img{
 .right{
     align-self: right; 
     justify-self: right;
+}
+.right p{
+    @media screen and (max-width: 700px) {
+        width: 100%;
+    }
+}
+h2{
+    @media screen and (max-width: 700px) {
+        font-size: 15px;
+    }
 }
 </style>

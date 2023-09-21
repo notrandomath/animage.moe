@@ -28,12 +28,13 @@ export default{
     100% { transform: translateX(calc(0))}
 }
 .wrapper{
+    padding-top: 5%;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
 
 .grid {
-  animation: scroll 10s linear infinite;
+  animation: scroll 20s linear infinite;
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: auto auto;

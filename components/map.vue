@@ -6,9 +6,9 @@
 
 <style scoped>
     .map{
-        margin-left: 10%;
+        margin-left: 5%;
         margin-bottom: 5%;
-        width: 80%;
+        width: 90%;
     }
     iframe{
         width: 100%;

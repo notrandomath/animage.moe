@@ -46,7 +46,12 @@ export default {
   .gallery{
     width: 49%;
     aspect-ratio: 14/10;
+    @media screen and (max-width: 700px) {
+        margin-bottom: 50px;
+        width: 100%;
+    }
   }
+  
   .carousel-controls {
     display: flex;
     flex-direction: row;
