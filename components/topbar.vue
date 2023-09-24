@@ -1,10 +1,9 @@
 <template>
     <div class="topbar">
-      <div class="emptyLeft"/>
-      <div class="center">
+      <div class="logo">
         <NuxtLink to="/"><img src="~/assets/logo.png" alt=""></NuxtLink>
       </div>
-      <div class="right">
+      <div class="menu">
         <Dropdown class="aboutDrop"/>
         <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/members">Members</NuxtLink></h2>
         <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/contact">Contact</NuxtLink></h2>
@@ -24,26 +23,12 @@
     color: var(--textColor);
     align-items: center;
     justify-content: space-between;
-    @media screen and (max-width: 1100px) {
-      justify-content: flex-start;
-    }
   }
-  .emptyLeft{
-    width: 33%;
-    @media screen and (max-width: 1100px) {
-       display: none;
-    }
-  }
-  .center{
-    width: 34%;
-    align-items: top;
+  .logo{
     height: 100%;
-    @media screen and (max-width: 1100px) {
-      margin-left: 2%;
-      margin-right: 1%;
-    }
+    margin-left: 2%;
   }
-  .right{
+  .menu{
     margin-top: 10px;
     height: 100%;
     width: 33%;
@@ -62,24 +47,12 @@
     margin-top: 5px;
     height: 65%;
     border-radius: 30px;
-    @media screen and (max-width: 1100px) {
-      height: 160px;
-      width: 100%;
-    }
   }
 
   h2 {
     text-decoration: none;
     margin-right: 20px;
     font-size: 100%;
-  }
-
-  .everythingElse{
-    
-    @media screen and (max-width: 1100px) {
-      display: flex;
-      flex-direction: column;
-    }
   }
 
   .boxedText{

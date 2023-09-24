@@ -9,18 +9,22 @@ export default {
 <template>
     <NuxtLink :to="{ path: 'member_info', query: {index: index}}" :member="member">
         <div class="card">
-            <div class="border" v-if="member.council"></div>
+            <!--leading member border: <div class="border" v-if="member.council"></div>-->
             <div class="imgContainer">
-                <img :src="'/animage.moe/' + 'club_logos/' + member.logo" alt="pic">
+                <img :src="'club_logos/' + member.logo" alt="pic">
             </div>
-            <h2>{{ member.name }}</h2>
         </div>
     </NuxtLink>
+    <h2>{{ member.name }}</h2>
 </template>
 
 <style scoped>
+    .memberBox{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     .card{
-        position: relative;
         text-align: center;
         width: 300px;
         height: 200px;
@@ -58,24 +62,17 @@ export default {
         width: 300px;
         height: auto;
         z-index: 1;
-        opacity: 0.5;
     }
 
     h2{
-        z-index: 1;
+        font-size: 12px;
         color: black;
         text-decoration: none;
-        position: absolute;
-        width: 50%;
-        top: 50;
-        bottom: 50;
-    }
-    .card:hover{
-        background-color: var(--logoColor);
+        width: 100%;
     }
     .card:hover img{
         z-index: 0;
-        opacity: 0.2;
+        opacity: 0.5;
     }
 
     .card:hover h2{

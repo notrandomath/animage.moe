@@ -1,12 +1,14 @@
 <template>
     <div class="newsletter">
+    <!-- 
         <div class="items">
             <h2>CalAnime Newsletter</h2>
             <p>Sign up now for free informational publications regarding new events and releases within the anime industry.</p>
             <input>
             <button class="sign up">Email Me</button>
-        </div>
-    </div>
+        </div> 
+    -->
+    </div> 
     <div class="footer">
         <div class="left">
             <img src="~/assets/logo.png" alt="">
@@ -18,7 +20,7 @@
         </div>
         <div class="right">
             <h2>Contact Us: animage@gmail.com</h2>
-            <p>Site desinged by Ellie Hubert and Yanni Thai</p>
+            <p>Site designed by Ellie H. and Yanni T.</p>
             <p>Site coded by Omar Yahia</p>
             <p>Artists: cover by @example1, uci art by @example2, @example3</p>
         </div>

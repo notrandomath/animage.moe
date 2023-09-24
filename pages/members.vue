@@ -1,10 +1,12 @@
 <template>
     <div class="members">
         <h1>Current Members</h1>
+        <!-- leading member label:
         <div class="label">
             <div class="ellipse"></div>
             <h2>= leading member</h2>
         </div>
+        -->
         <div class="grid">
             <div class="content" v-for="(member, index) in member_data">
                 <MemberCard class="card" :member="member" :index="index"></MemberCard>
