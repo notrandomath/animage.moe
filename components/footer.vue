@@ -1,13 +1,13 @@
 <template>
     <div class="newsletter">
-    <!-- 
         <div class="items">
+            <!--
             <h2>CalAnime Newsletter</h2>
+            -->
             <p>Sign up now for free informational publications regarding new events and releases within the anime industry.</p>
             <input>
             <button class="sign up">Email Me</button>
         </div> 
-    -->
     </div> 
     <div class="footer">
         <div class="left">
