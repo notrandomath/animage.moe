@@ -13,9 +13,10 @@ export default {
             <div class="imgContainer">
                 <img :src="'club_logos/' + member.logo" alt="pic">
             </div>
+            <h2 class="name">{{ member.name }}</h2>
         </div>
     </NuxtLink>
-    <h2>{{ member.name }}</h2>
+    <h2>{{ member.location }}</h2>
 </template>
 
 <style scoped>
@@ -25,6 +26,7 @@ export default {
         width: 100%;
     }
     .card{
+        position: relative;
         text-align: center;
         width: 300px;
         height: 200px;
@@ -63,12 +65,33 @@ export default {
         height: auto;
         z-index: 1;
     }
+    .name{
+        font-size: inherit;
+        z-index: -1;
+        color: black;
+        text-decoration: none;
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 50;
+        bottom: 50;
+    }
 
     h2{
         font-size: 12px;
         color: black;
         text-decoration: none;
         width: 100%;
+    }
+    .card:hover {
+        background-color: var(--logoColor);
+    }
+    .card:hover .name{
+        z-index: 1;
     }
     .card:hover img{
         z-index: 0;

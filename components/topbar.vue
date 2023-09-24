@@ -19,27 +19,24 @@
     background: linear-gradient(180deg, var(--logoColor) 70.31%, rgba(217, 217, 217, 0.00) 100%);
 
     display: flex;
-    height: 220px;
+    padding-bottom: 100px;
     color: var(--textColor);
     align-items: center;
     justify-content: space-between;
+    transition: max-height ease-in-out 2s;
   }
   .logo{
-    height: 100%;
+    height: 150px;
     margin-left: 2%;
   }
   .menu{
     margin-top: 10px;
     height: 100%;
-    width: 33%;
+    width: 50%;
     display: flex;
     flex-direction: row;
-    align-items: top;
+    align-self: flex-start;
     justify-content: space-between;
-    @media screen and (max-width: 1100px) {
-      flex: 1;
-      flex-wrap: wrap;
-    }
   }
 
   img{
@@ -52,7 +49,10 @@
   h2 {
     text-decoration: none;
     margin-right: 20px;
-    font-size: 100%;
+    font-size: 150%;
+    @media screen and (max-width: 900px) {
+            font-size: 50%
+        }
   }
 
   .boxedText{

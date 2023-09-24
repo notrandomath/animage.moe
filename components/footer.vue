@@ -21,7 +21,7 @@
         <div class="right">
             <h2>Contact Us: animage@gmail.com</h2>
             <p>Site designed by Ellie H. and Yanni T.</p>
-            <p>Site coded by Omar Yahia</p>
+            <p>Site coded by Omar Y.</p>
             <p>Artists: cover by @example1, uci art by @example2, @example3</p>
         </div>
     </div>

@@ -39,7 +39,10 @@ export default {
         justify-content: center;
     }
     h2{
-        font-size: 100%;
+        font-size: 150%;
+        @media screen and (max-width: 700px) {
+            font-size: 50%
+        }
     }
     .downArrow{
         border-right: 20px;

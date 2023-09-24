@@ -17,9 +17,7 @@
             </button></a>
         </div> 
         <div class="home">
-            <h2>Home:&nbsp;</h2>
-            <h2> {{ member.location }}</h2>
-            <h2 v-if="member.school">&nbsp;({{ member.school }})</h2>
+            <h2>Location: {{ member.location }}</h2>
         </div>
         <p>Description: {{ member.description }}</p>
     </div>
