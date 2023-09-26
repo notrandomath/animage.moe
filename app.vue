@@ -1,8 +1,10 @@
 <template>
   <Topbar />
   <NuxtLayout />
-  <NuxtPage />
-  <Footer />
+  <div class="other">
+    <NuxtPage />
+    <Footer />
+  </div>
 </template>
 
 <style>
@@ -10,6 +12,13 @@
   --textColor: #F8E5EE;
   --logoColor: #790000;
   --frameColor: #f1d9d9;
+  --topbarHeight: 150px;
+}
+
+.other{
+  position: relative;
+  height: 100vh;
+  top: var(--topbarHeight)
 }
 
 body {

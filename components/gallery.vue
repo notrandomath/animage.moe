@@ -24,7 +24,7 @@ export default {
   }
   iframe{
     width: 100%;
-    height: 400px;
+    aspect-ratio: 10/7;
   }
 </style>
   

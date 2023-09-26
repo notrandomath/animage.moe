@@ -1,17 +1,28 @@
 <script>
 export default {
   name: 'dropdown',
+  watch: {
+    $route() {
+      this.showDropdown = false;
+    },
+  },
   data () {
     return {
       showDropdown: false
     }
-  }
+  },
+  methods: {
+    toggleDropdown() {
+      this.showDropdown = !this.showDropdown
+      this.$emit('toggle-dropdown'); // Emit an event to notify the parent
+    },
+  },
 }
 </script>
 
 <template>
     <div class="dropdown">
-        <div class="label" @click="showDropdown = !showDropdown">
+        <div class="label" @click="toggleDropdown">
             <h2>About</h2>
             <Icon class="downArrow" name="ic:baseline-arrow-right" color="white" size="20px" v-if="!showDropdown"/>
             <Icon class="downArrow" name="ic:baseline-arrow-drop-down" color="white" size="20px" v-if="showDropdown"/>
@@ -32,17 +43,12 @@ export default {
         height: fit-content;        
     }
     .label{
+        width: 100%;
         cursor: pointer;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
-    }
-    h2{
-        font-size: 150%;
-        @media screen and (max-width: 700px) {
-            font-size: 50%
-        }
     }
     .downArrow{
         border-right: 20px;
@@ -50,7 +56,7 @@ export default {
 
     .fade-enter-active,
     .fade-leave-active {
-        transition: all .5s ease-out;
+        transition: all 1s ease-out;
     }
 
     .fade-enter-from,

@@ -9,7 +9,7 @@
   margin-top: 5%;
   margin-left: 10%;
   width: 80%;
-  height: 100%;
+  aspect-ratio: 9 / 4;
 }
 iframe{
     width: 100%;
