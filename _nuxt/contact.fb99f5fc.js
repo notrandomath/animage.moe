@@ -1,1 +1,0 @@
-import{_ as c,c as t,o as e}from"./entry.f0e3aa10.js";const a={};function o(n,r){return e(),t("h1",null," Contact us through email at: animage@gmail.com ")}const _=c(a,[["render",o]]);export{_ as default};
