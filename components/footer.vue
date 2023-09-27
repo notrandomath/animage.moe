@@ -11,18 +11,20 @@
     </div> 
     <div class="footer">
         <div class="left">
-            <img src="~/assets/logo.png" alt="">
+            <h2>Stay in the loop?</h2>
             <div class="socials">
                 <a href="https://discord.gg/P2ZP4PXF98"><Icon name="ic:baseline-discord" color="var(--logoColor)" size="30px"/></a>
                 <a href="https://www.instagram.com/anime.uci/"><Icon name="mdi:instagram" color="var(--logoColor)" size="30px"/></a>
                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><Icon name="mdi:whatsapp" color="var(--logoColor)" size="30px"/></a>
             </div>
         </div>
-        <div class="right">
+        <div class="center">
             <h2>Contact Us: animage@gmail.com</h2>
+            <p>Artists: cover by @example1, uci art by @example2, @example3</p>
+        </div>
+        <div class="right">
             <p>Site designed by Ellie H. and Yanni T.</p>
             <p>Site coded by Omar Y.</p>
-            <p>Artists: cover by @example1, uci art by @example2, @example3</p>
         </div>
     </div>
 </template>
@@ -62,52 +64,81 @@ button{
     background-color: lightsalmon;
 }
 p{
+    text-align: center;
     font-size: 10px;
-    @media screen and (max-width: 700px) {
-        width: 71%;
-    }
-}
-img{
-    height: 75px;
+    width: 100%;
 }
 .footer{
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 90%;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     @media screen and (max-width: 700px) {
-        width: 98%;
-        padding-left: 1%;
-        padding-right: 1%;
-    }
-}
-.left{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    flex: 1;
-}
-.socials{
-
-    padding-left: 10px;
-    @media screen and (max-width: 500px) {
-        padding-left: 22px;
-        display: flex;
         flex-direction: column;
-        align-items: center;
     }
 }
-.right{
-    align-self: right; 
-    justify-self: right;
-}
-.right p{
+.center{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+    width: 33%;
     @media screen and (max-width: 700px) {
         width: 100%;
     }
 }
+.right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 32%;
+    @media screen and (max-width: 700px) {
+        text-align: center;
+        width: 100%;
+    }
+}
+.socials{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 700px) {
+        width: 100%;
+    }
+}
+.left{
+    align-self: flex-start; 
+    justify-self: flex-start;
+    width: 33%;
+    @media screen and (max-width: 700px) {
+        width: 100%;
+    }
+}
+.center p{
+    text-align: center;
+}
+.right p{
+    text-align: right;
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        text-align: center;
+    }
+}
 h2{
+    width: fit-content;
+    text-align: left;
     font-size: 15px;
+    @media screen and (max-width: 700px) {
+        text-align: center;
+        width: 100%;
+    }
+}
+.center h2{
+    width: 100%;
+    text-align: center;
 }
 </style>
