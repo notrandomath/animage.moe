@@ -60,7 +60,7 @@ export default{
     color: var(--textColor);
     align-items: stretch;
     justify-content: space-between;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
   .topbar.active { 
     height: 350px;

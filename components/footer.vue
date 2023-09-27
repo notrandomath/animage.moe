@@ -5,7 +5,7 @@
             <h2>CalAnime Newsletter</h2>
             -->
             <p>Sign up now for free informational publications regarding new events and releases within the anime industry.</p>
-            <input>
+            <input :placeholder="'Email'">
             <button class="sign up">Email Me</button>
         </div> 
     </div> 
@@ -55,6 +55,7 @@ input{
     }
 }
 button{
+    margin-top: 10px;
     width: 25%;
     height: 30px;
     border-radius: 30px;
@@ -88,7 +89,14 @@ img{
     flex: 1;
 }
 .socials{
+
     padding-left: 10px;
+    @media screen and (max-width: 500px) {
+        padding-left: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .right{
     align-self: right; 
@@ -100,8 +108,6 @@ img{
     }
 }
 h2{
-    @media screen and (max-width: 700px) {
-        font-size: 15px;
-    }
+    font-size: 15px;
 }
 </style>

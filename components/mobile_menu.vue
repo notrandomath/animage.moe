@@ -32,18 +32,18 @@ export default {
 
 <style scoped>
 .sidebar {
-  background: linear-gradient(270deg, var(--logoColor) 95%, rgba(217, 217, 217, 0.00) 100%);
+  background: var(--logoColor);
   z-index: 2;
   position: fixed;
   height: 100vh;
-  width: 50%;
+  width: 100%;
   top: 100px;
   right: -100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .aboutDropdown{
   width: 100%;
@@ -60,10 +60,11 @@ export default {
 }
 .hamburger {
   z-index: 2;
+  margin-top: 20px;
   margin-right: 25px;
   margin-left: 25px;
-  width: 60px;
-  height: 80px;
+  width: 45px;
+  height: 60px;
 
   flex-direction: column;
   align-items: flex-start;
@@ -87,7 +88,7 @@ export default {
   height: 3px;
   transform-origin: left;
 
-  transition: all 2s ease;
+  transition: all 0.5s ease;
 }
 .boxedText{
     background: var(--textColor); 
