@@ -70,6 +70,7 @@ p{
 }
 .footer{
     width: 98%;
+    padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
     display: flex;
@@ -101,20 +102,25 @@ p{
     }
 }
 .socials{
-    width: fit-content;
+    width: 110px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: space-between;
     @media screen and (max-width: 700px) {
-        width: 100%;
+        align-self: center;
+        justify-self: center;
     }
 }
 .left{
+    display: flex;
+    flex-direction: column;
     align-self: flex-start; 
     justify-self: flex-start;
     width: 33%;
     @media screen and (max-width: 700px) {
+        justify-content: center;
+        align-items: center;
         width: 100%;
     }
 }
