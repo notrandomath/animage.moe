@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="center">
-            <h2>Contact Us: animage@gmail.com</h2>
+            <h2>Contact Us: AnimageNetwork@gmail.com</h2>
             <p>Artists: cover by @example1, uci art by @example2, @example3</p>
         </div>
         <div class="right">
