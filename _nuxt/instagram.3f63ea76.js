@@ -1,0 +1,1 @@
+import{_ as e,c as t,d as a,a as r,o as c}from"./entry.583bd3d1.js";const n={},o=r("a",{href:"https://www.instagram.com/animagenetwork/"},"click here",-1);function s(_,i){return c(),t("h1",null,[a("If you weren't redirected to the Instagram link "),o])}const m=e(n,[["render",s]]);export{m as default};
