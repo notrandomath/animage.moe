@@ -1,69 +1,42 @@
 <template>
-    <div class="newsletter">
-        <div class="items">
-            <!--
-            <h2>CalAnime Newsletter</h2>
-            -->
-            <p>Sign up now for free informational publications regarding new events and releases within the anime industry.</p>
-            <input :placeholder="'Email'">
-            <button class="sign up">Email Me</button>
-        </div> 
-    </div> 
+    <div class="separator"></div>
     <div class="footer">
         <div class="left">
             <h2>Stay in the loop?</h2>
             <div class="socials">
-                <a href="https://discord.gg/P2ZP4PXF98"><Icon name="ic:baseline-discord" color="var(--logoColor)" size="30px"/></a>
-                <a href="https://www.instagram.com/anime.uci/"><Icon name="mdi:instagram" color="var(--logoColor)" size="30px"/></a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><Icon name="mdi:whatsapp" color="var(--logoColor)" size="30px"/></a>
+                <NuxtLink style="text-decoration: none; color: inherit;" to="/discord"><Icon name="ic:baseline-discord" color="var(--logoColor)" size="30px"/></NuxtLink>
+                <NuxtLink style="text-decoration: none; color: inherit;" to="/instagram"><Icon name="mdi:instagram" color="var(--logoColor)" size="30px"/></NuxtLink>
+                <NuxtLink style="text-decoration: none; color: inherit;" to="/email"><Icon name="mdi:email" color="var(--logoColor)" size="30px"/></NuxtLink>
             </div>
         </div>
         <div class="center">
             <h2>Contact Us: AnimageNetwork@gmail.com</h2>
-            <p>Artists: cover by @example1, uci art by @example2, @example3</p>
+            <h3>Artists: cover by @example1, uci art by @example2, @example3</h3>
         </div>
         <div class="right">
-            <p>Site designed by Ellie H. and Yanni T.</p>
-            <p>Site coded by Omar Y.</p>
+            <h3>Site designed by Ellie H. and Yanni T.</h3>
+            <h3>Site coded by Omar Y.</h3>
         </div>
     </div>
 </template>
 
 <style scoped>
-.newsletter{
+.separator{
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 30px;
     color: var(--textColor);
     display: flex;
     justify-content: center;
 }
-.items{
-    text-align: left;
-    @media screen and (max-width: 700px) {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-input{
-    width: 71%;
-    margin-right: 2%;
-    height: 25px;
-    background-color: var(--textColor);
-    @media screen and (max-width: 700px) {
-        margin-right: 0;
-    }
-}
+
 button{
     margin-top: 10px;
-    width: 25%;
     height: 30px;
-    border-radius: 30px;
-    background-color: lightsalmon;
+    background-color: var(--textColor);
 }
-p{
+h3{
     text-align: center;
     font-size: 10px;
     width: 100%;
@@ -124,10 +97,10 @@ p{
         width: 100%;
     }
 }
-.center p{
+.center h3{
     text-align: center;
 }
-.right p{
+.right h3{
     text-align: right;
     @media screen and (max-width: 700px) {
         width: 100%;

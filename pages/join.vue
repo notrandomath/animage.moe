@@ -1,10 +1,8 @@
 <template>
-    <h1>Join our network of anime clubs across the world!</h1>
-    <h2>Use the form below to apply to the Cal Animage network</h2>
-    <h2>Not qualified to be a member of any clubs? Reach out to the nearest anime club in your area and ask about their policy for guests/alumni!</h2>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd1Z8yrULqrs-WxD6kicxxp156f5GB-lYqfkinoZOnnFlEN3Q/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">
+    <h1>We invite your club to join our network of anime clubs from all over the world!!</h1>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfnQv8Geii8ybOkMxPUSeSk14Y28JxqW0Pmwz7l_K6Sd_y-tg/viewform?embedded=true" width="640" height="1763" frameborder="0" marginheight="0" marginwidth="0">
         Loading…
-    </iframe>
+    </iframe> 
 </template>
 
 <style scoped>

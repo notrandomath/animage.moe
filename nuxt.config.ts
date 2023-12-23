@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/google-fonts", "nuxt-icon"],
   googleFonts: {
     families: {
-      Rubik: [600],
+      Rubik: [300, 600],
     },
     inject: true
   },
