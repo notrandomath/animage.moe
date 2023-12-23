@@ -11,7 +11,6 @@
         </div>
         <div class="center">
             <h2>Contact Us: AnimageNetwork@gmail.com</h2>
-            <h3>Artists: cover by @example1, uci art by @example2, @example3</h3>
         </div>
         <div class="right">
             <h3>Site designed by Ellie H. and Yanni T.</h3>
@@ -57,7 +56,7 @@ h3{
 .center{
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
+    align-self: center;
     align-items: flex-start;
     width: 33%;
     @media screen and (max-width: 700px) {

@@ -1,6 +1,6 @@
 <template>
     <div class="docs">
-        <h1>This page contains documents used by Cal Animage officials</h1>
+        <h1>Official Documents</h1>
         <DropdownDocument
             title="Network Charter"
             description="Official constitution of the Cal Animage network"
