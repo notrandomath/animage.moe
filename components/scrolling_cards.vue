@@ -7,6 +7,13 @@
             <div class="duplicated_content" v-for="(member, index) in member_data">
                 <MemberCard class="card" :member="member" :index="index"></MemberCard>
             </div>
+            <!-- comment below when it's even --> 
+            <div class="duplicated_content" v-for="(member, index) in member_data">
+                <MemberCard class="card" :member="member" :index="index"></MemberCard>
+            </div>
+            <div class="duplicated_content" v-for="(member, index) in member_data">
+                <MemberCard class="card" :member="member" :index="index"></MemberCard>
+            </div>
         </div>
     </div>
 </template>
@@ -24,7 +31,7 @@ export default{
 
 <style scoped>
 @keyframes scroll {
-	0% { transform: translateX(calc(-322px * 5))}
+	0% { transform: translateX(calc(-322px * 11))} /* update the number on the right (6) to be the number of pairs of clubs */
     100% { transform: translateX(calc(0))}
 }
 .wrapper{
@@ -34,7 +41,7 @@ export default{
 }
 
 .grid {
-  animation: scroll 20s linear infinite;
+  animation: scroll 40s linear infinite; /* if it's odd double the time, even half the time*/
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: auto auto;

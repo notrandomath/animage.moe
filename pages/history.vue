@@ -2,7 +2,13 @@
     <h1>History</h1>
     <div class="historyBox">
         <h2>WIP</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.</p>
+        <p>
+            The history page of Cal Animage is a work in progress! See
+            <a href="https://www.animenewsnetwork.com/encyclopedia/lexicon.php?id=114">https://www.animenewsnetwork.com?/encyclopedia/lexicon.php?id=114</a> 
+            and <a href="https://apricot.com/~shogun/C-A.html">https://apricot.com/~shogun/C-A.html</a> 
+            for old sources overviewing the origins of Cal Animage.
+        </p>
+        <p>Do you know something about Cal Animage’s past that you could help tell the world? Please contact us, and help us tell the story of Animage’s early anime clubs!</p>
     </div>
 </template>
 
@@ -27,5 +33,11 @@
             text-align: center;
         }
     }
-    
+    p{
+        width: 100%;
+        text-align: left;
+    }
+    a{
+        word-wrap: break-word;
+    }
 </style>

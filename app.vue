@@ -12,7 +12,7 @@
   --textColor: #F8E5EE;
   --logoColor: #790000;
   --frameColor: #f1d9d9;
-  --topbarHeight: 150px;
+  --topbarHeight: 110px /* used to be 150 */;
 }
 
 .other{

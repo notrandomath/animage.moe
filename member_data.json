@@ -3,7 +3,7 @@
         "name": "Cal Animage Alpha",
         "location": "University of California, Berkeley",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
-        "logo": "alpha.webp",
+        "logo": "alpha.png",
         "website": "https://cal.moe/",
         "council": true
     },
@@ -34,11 +34,19 @@
         "council": true
     },
     {
-        "name": "Japanese Animation Fans of Western Australia (JAWFA)",
-        "location": "South Perth, Australia",
+        "name": "Anime & Manga Club @ SDSU",
+        "location": "San Diego State University",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
-        "logo": "zeta.png",
-        "website": "https://jafwa.asn.au/",
+        "logo": "sdsu.png",
+        "website": "https://anime.sdsu.edu/",
+        "council": false
+    },
+    {
+        "name": "Greenwood Anime Society",
+        "location": "University of California, Riverside",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
+        "logo": "ucr.png",
+        "website": "https://greenwoodanimesociety.carrd.co/#",
         "council": false
     },
     {

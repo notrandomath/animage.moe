@@ -52,7 +52,8 @@ export default{
   .topbar{
     z-index: 3;
     top: 0;
-    background: linear-gradient(180deg, var(--logoColor) 70.31%, rgba(217, 217, 217, 0.00) 100%);
+    /*background: linear-gradient(180deg, var(--logoColor) 70.31%, rgba(217, 217, 217, 0.00) 100%); add this back later*/
+    background-color: var(--logoColor);
     position: fixed;
     display: flex;
     height: var(--topbarHeight);
@@ -63,7 +64,7 @@ export default{
     transition: all 0.5s ease-in-out;
   }
   .topbar.active { 
-    height: 350px;
+    height: 250px; /* used to be 350px */
   }
   .logo{
     height: 150px;
