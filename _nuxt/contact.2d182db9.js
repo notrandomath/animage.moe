@@ -1,0 +1,1 @@
+import{_ as t,c,o as e}from"./entry.4dd7efa3.js";const o={};function a(n,r){return e(),c("h1",null," Contact us through email at: AnimageNetwork@gmail.com ")}const _=t(o,[["render",a]]);export{_ as default};
