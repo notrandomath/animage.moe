@@ -33,3 +33,14 @@ body {
   color: #2c3e50;
 }
 </style>
+
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Animage.moe',
+  ogTitle: 'Animage.moe',
+  description: 'The official CalAnimage Network site',
+  ogDescription: 'The official CalAnimage Network site',
+  ogImage: 'https://animage.moe/logo.png',
+  twitterCard: 'summary_large_image',
+})
+</script>
