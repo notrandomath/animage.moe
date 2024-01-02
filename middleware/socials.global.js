@@ -14,4 +14,9 @@ export default defineNuxtRouteMiddleware((to, from) => {
           external: true
         })
       }
+      if (to.path == '/drive') {
+        return navigateTo('https://drive.google.com/drive/folders/1dUDgzFSfjFInY6i3J-MO3w4XOWtjBzeC?usp=sharing', {
+          external: true
+        })
+      }
   })
