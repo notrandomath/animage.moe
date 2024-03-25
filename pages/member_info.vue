@@ -16,10 +16,12 @@
                 <Icon class="exit" name="ic:round-exit-to-app"></Icon>
             </button></a>
         </div> 
-        <div class="home">
+        <div class="frame">
+            <div class="home">
             <h2>Location: {{ member.location }}</h2>
+            </div>
+            <p>Description: {{ member.description }}</p>
         </div>
-        <p>Description: {{ member.description }}</p>
     </div>
     
 </template>
@@ -35,6 +37,7 @@
 }
 .frame{
     margin-top: 2%;
+    margin-bottom: 2%;
     border-radius: 5%;
     padding: 2%;
     background-color: var(--frameColor);
