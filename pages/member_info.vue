@@ -2,19 +2,15 @@
     <div class="memberPage">
         
         <div class="artworksFrame">
-            <div class="imgFrame">
-                <img class="logoImage" :src="'club_logos/' + member.logo" alt="pic">
-            </div>
-            <div class="mascot" v-if="member.mascot">
-                <div class="frame">
-                    
-                    <img class="mascotImage" :src="'club_logos/' + member.mascot" alt="pic">
-                </div>
-            </div>
+            <img class="logoImage" :src="'club_logos/' + member.logo" alt="pic">
+            <img v-if="member.mascot" class="mascotImage" :src="'club_logos/' + member.mascot" alt="pic">
         </div>
         <div class="frame">
-            <h1>{{ member.name }}</h1>
-            <h2>Location: {{ member.location }}</h2>
+            <div class="info">
+                <h1>{{ member.name }}</h1>
+                <h5>Est. {{ member.join }}</h5>
+                <h5>Location: {{ member.location }}</h5>
+            </div>
             
             <div class="text">
                 <div class="info">
@@ -85,20 +81,13 @@
     justify-content: center;
     align-items: center;
 }
-.imgFrame{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
-.mascot{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
 img {
+    flex: 1;
+    width: auto;
     height: 300px;
+    min-width: 0;
+    object-fit: contain;
+    border-radius: 5%;
 }
 a {
     text-decoration: none;

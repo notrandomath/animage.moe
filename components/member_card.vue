@@ -9,9 +9,8 @@ export default {
 <template>
     <NuxtLink :to="{ path: 'member_info', query: {index: index}}" :member="member">
         <div class="card">
-            <!--leading member border: <div class="border" v-if="member.council"></div>-->
             <div class="imgContainer">
-                <img :src="'club_logos/' + member.banner" alt="pic">
+                <img :src="'club_logos/' + member.banner" alt="pic" :class="{ active: member.wide }">
             </div>
             <h2 class="name">{{ member.name }}</h2>
         </div>
@@ -39,14 +38,6 @@ export default {
         border: 1px solid #ccc;
         box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     }
-    .border{
-        position: absolute;
-        z-index: -1;
-        background-color: magenta;
-        width: 315px;
-        height: 215px;
-        border-radius: 50px;
-    }
     .imgContainer{
         position: absolute;
         text-align: center;
@@ -59,11 +50,14 @@ export default {
         align-items: center;
         justify-content: center;
     }
-
     img{
-        width: 100%;
+        width: auto;
         height: 100%;
         z-index: 1;
+    }
+    img.active {
+        width: 100%;
+        height: auto;
     }
     .name{
         font-size: inherit;
