@@ -11,7 +11,7 @@ export default {
         <div class="card">
             <!--leading member border: <div class="border" v-if="member.council"></div>-->
             <div class="imgContainer">
-                <img :src="'club_logos/' + member.logo" alt="pic">
+                <img :src="'club_logos/' + member.banner" alt="pic">
             </div>
             <h2 class="name">{{ member.name }}</h2>
         </div>
@@ -61,8 +61,8 @@ export default {
     }
 
     img{
-        width: 300px;
-        height: auto;
+        width: 100%;
+        height: 100%;
         z-index: 1;
     }
     .name{

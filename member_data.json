@@ -4,6 +4,7 @@
         "location": "University of California, Berkeley",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
         "logo": "alpha.png",
+        "banner": "alpha.png",
         "website": "https://cal.moe/",
         "council": true
     },
@@ -12,6 +13,7 @@
         "location": "University of California, San Diego",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
         "logo": "beta.png",
+        "banner": "beta.png",
         "website": "https://ucsd.moe/",
         "council": false
     },
@@ -20,16 +22,18 @@
         "location": "University of California, Santa Barbara",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
         "logo": "gamma.jpg",
+        "banner": "gamma.jpg",
         "website": "https://www.facebook.com/ucsb.anime",
         "council": false
     },
     {
         "name": "Anime Club @ UCI",
         "location": "University of California, Irvine",
-        "mascot": "shoko.png",
+        "description": "Cal Animage Epsilon and home of the Anime Anteaters since 1990! If you like anime and all of its related hobbies — like manga, cosplay, or art — then consider us an ally!",
+        "logo": "uci_logo.png",
         "mascot_name": "Shoko",
-        "description": "The undisputed best club ever ong fr fr.",
-        "logo": "epsilon.png",
+        "mascot": "uci_mascot.png",
+        "banner": "uci_banner.png",
         "website": "https://uci.moe/",
         "council": true
     },
@@ -38,22 +42,27 @@
         "location": "San Diego State University",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
         "logo": "sdsu.png",
+        "banner": "sdsu.png",
         "website": "https://anime.sdsu.edu/",
         "council": false
     },
     {
         "name": "Greenwood Anime Society",
         "location": "University of California, Riverside",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
-        "logo": "ucr.png",
-        "website": "https://greenwoodanimesociety.carrd.co/#",
+        "description": "GWAS was made to create a fun and interactive environment for all anime fans at UCR. We are not only a social club, but we're also actively making opportunities for artists, cosplayers, con-goers, and to those who haven't felt the full anime experience. For new and old fans. Est. 1994",
+        "logo": "ucr_logo.png",
+        "banner": "ucr_banner.png",
+        "website": "https://www.instagram.com/greenwoodanimesociety",
         "council": false
     },
     {
         "name": "Japanese Animation Club (JAC)",
         "location": "University of California, Los Angeles",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
-        "logo": "eta.png",
+        "description": "We’re a club dedicated to facilitating both on and off-campus gatherings for the appreciation of Japanese anime and culture! We welcome all anime fans to join us at our club-hosted events and local conventions, to meet with others who share the same passion for art and entertainment.",
+        "logo": "ucla_logo.png",
+        "mascot_name": "JACie",
+        "mascot": "ucla_mascot.png",
+        "banner": "ucla_banner.png",
         "website": "https://jac.moe/",
         "council": true
     },
@@ -61,24 +70,29 @@
         "name": "Minna no Anime",
         "location": "California Polytechnic State University, San Luis Obispo",
         "description": "Welcome to the website of Minna no Anime, the official anime club of California Polytechnic State University in San Luis Obispo! We are a group dedicated to the discussion and enjoyment of animated media. From a continuous weekly show schedule, to social hangouts and events, we are the central coast's go-to club for all things anime!",
-        "logo": "iota.png",
+        "logo": "cpslo_logo.png",
+        "banner": "cpslo_banner.png",
         "website": "https://www.minnanoanime.org/",
         "council": false
     },
     {
         "name": "Slug Anime and Manga Association @ UCSC",
         "location": "University of California, Santa Cruz",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
-        "logo": "kappa.jpg",
-        "website": "https://twitter.com/sluganime",
+        "description": "SAMA, short for Slug Anime and Manga Association, is UCSC's anime club! All types of fans of all anime, manga, games, and culture are welcome! We host weekly meetings, events, and artist alleys year-round! Follow us on Instagram or join our Discord server!",
+        "logo": "ucsc_logo.jpg",
+        "mascot_name": "Mari",
+        "mascot": "ucsc_mascot.png",
+        "banner": "ucsc_banner.png",
+        "website": "https://linktr.ee/sluganime",
         "council": false
     },
     {
         "name": "Trojan Anime Culture",
         "location": "University of Southern California",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
-        "logo": "mu.jpg",
-        "website": "https://www.facebook.com/groups/TrojanAnimeCulture/",
+        "description": "University of Southern California's society for the study and promotion of Japanese animation and popular culture. Come join us to discuss anime, manga, and anything else related to Japanese pop culture you're interested in!",
+        "logo": "usc_logo.png",
+        "banner": "usc_banner.jpg",
+        "website": "https://www.instagram.com/usc.tac/",
         "council": false
     },
     {
@@ -86,6 +100,7 @@
         "location": "University of California, Davis",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
         "logo": "davis.png",
+        "banner": "davis.png",
         "website": "https://www.facebook.com/davisanimeclub/",
         "council": false
     }
