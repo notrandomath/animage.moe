@@ -1,31 +1,20 @@
 <template>
     <div class="memberPage">
-        
-        <div class="artworksFrame">
-            <img class="logoImage" :src="'club_logos/' + member.logo" alt="pic">
-            <img v-if="member.mascot" class="mascotImage" :src="'club_logos/' + member.mascot" alt="pic">
-        </div>
         <div class="frame">
-            <div class="info">
-                <h1>{{ member.name }}</h1>
+            <h1>{{ member.name }}</h1>
+            <div>
                 <h5>Est. {{ member.join }}</h5>
                 <h5>Location: {{ member.location }}</h5>
             </div>
-            
-            <div class="text">
-                <div class="info">
-                    <p v-if="member.mascot_name">Mascot: {{ member.mascot_name }}</p>
-                    <p class="websiteText">Website: <a :href="member.website">{{ member.website }}</a></p>
-                </div>
-                
-                <p>Description: {{ member.description }}</p>
-                
-                
+            <div class="artworksFrame">
+                <img class="logoImage" :src="'club_logos/' + member.logo" alt="pic">
+                <img v-if="member.mascot" class="mascotImage" :src="'club_logos/' + member.mascot" alt="pic">
             </div>
-            <a class="websiteFrame" :href="member.website"><button>
-                Website
-                <Icon class="exit" name="ic:round-exit-to-app"></Icon>
-            </button></a>
+            <div class="info">
+                <p class="websiteText">Website: <a :href="member.website">{{ member.website }}</a></p>
+                <p v-if="member.mascot_name">Mascot: {{ member.mascot_name }}</p>
+                <p class="description">{{ member.description }}</p>
+            </div>
         </div>
     </div>
     
@@ -44,6 +33,11 @@
         width: 90%
     }
 }
+.info {
+    margin: 2%;
+    border: 2px solid white;
+    padding: 2%;
+}
 .frame{
     margin-top: 2%;
     margin-bottom: 2%;
@@ -59,18 +53,9 @@
         width: 98%
     }
 }
-.websiteFrame{
-    @media screen and (min-width: 701px) {
-        display: none;
-    }
-}
 .artworksFrame{
-    margin-top: 2%;
+    margin-top: 40px;
     margin-bottom: 2%;
-    border-radius: 5%;
-    padding: 2%;
-    background-color: var(--frameColor);
-    width: 76%;
     height: 300px;
     display: flex;
     flex-direction: row;
@@ -83,11 +68,13 @@
 }
 img {
     flex: 1;
-    width: auto;
     height: 300px;
+    max-width: 100%;
     min-width: 0;
     object-fit: contain;
-    border-radius: 5%;
+    @media screen and (max-width: 700px) {
+        margin: 10px;
+    }
 }
 a {
     text-decoration: none;
@@ -109,21 +96,32 @@ button {
     text-decoration: none;
 
 }
+h1 {
+    border-radius: 5%;
+    background-color: var(--logoColor);
+    padding: 10px;
+    color: white;
+    @media screen and (max-width: 700px) {
+        width: 80%;
+    }
+}
 h2 {
     text-align: center;
     text-decoration: none;
 }
+h5 {
+    margin: 0;
+}
 p {
+    font-size: 20px;
     text-align: left;
     @media screen and (max-width: 700px) {
+        font-size: 16px;
         text-align: center;
     }
 }
-.websiteText {
-    margin-bottom: 50px;
-    @media screen and (max-width: 700px) {
-        display: none;
-    }
+.description {
+    margin-top: 25px;
 }
 </style>
 

@@ -27,7 +27,11 @@
 p{
   margin-left: 2%;
   margin-right: 2%;
+  
   font-size: 30px;
+  @media screen and (max-width: 700px) {
+    font-size: 20px;
+  }
   text-align: center;
 }
 ol {
@@ -42,6 +46,9 @@ li {
   margin-right: 5%;
   text-align: left;
   font-size: 30px;
+  @media screen and (max-width: 700px) {
+    font-size: 18px;
+  }
   counter-increment: my-counter; /* Increment the counter for each list item */
 }
 

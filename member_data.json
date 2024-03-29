@@ -6,7 +6,7 @@
         "logo": "alpha.png",
         "banner": "alpha.png",
         "website": "https://cal.moe/",
-        "join": "Jan. 1989",
+        "join": "1989",
         "wide": true
     },
     {
@@ -16,7 +16,7 @@
         "logo": "beta.png",
         "banner": "beta.png",
         "website": "https://ucsd.moe/",
-        "join": "Apr. 1990"
+        "join": "1990"
     },
     {
         "name": "UCSB Anime Club",
@@ -25,7 +25,7 @@
         "logo": "gamma.jpg",
         "banner": "gamma.jpg",
         "website": "https://www.facebook.com/ucsb.anime",
-        "join": "Apr. 1990",
+        "join": "1990",
         "wide": true
     },
     {
@@ -37,7 +37,7 @@
         "mascot": "uci_mascot.png",
         "banner": "uci_banner.png",
         "website": "https://uci.moe/",
-        "join": "Oct. 1990"
+        "join": "1990"
     },
     {
         "name": "Anime & Manga Club @ SDSU",
@@ -46,7 +46,7 @@
         "logo": "sdsu.png",
         "banner": "sdsu.png",
         "website": "https://anime.sdsu.edu/",
-        "join": "Mar. 2021",
+        "join": "2021",
         "wide": true
     },
     {
@@ -56,7 +56,7 @@
         "logo": "ucr_logo.png",
         "banner": "ucr_banner.png",
         "website": "https://www.instagram.com/greenwoodanimesociety",
-        "join": "Mar. 2021"
+        "join": "2021"
     },
     {
         "name": "Japanese Animation Club (JAC)",
@@ -67,7 +67,7 @@
         "mascot": "ucla_mascot.png",
         "banner": "ucla_banner.png",
         "website": "https://jac.moe/",
-        "join": "Oct. 1991",
+        "join": "1991",
         "wide": true
     },
     {
@@ -77,7 +77,7 @@
         "logo": "cpslo_logo.png",
         "banner": "cpslo_banner.png",
         "website": "https://www.minnanoanime.org/",
-        "join": "Jan. 1992",
+        "join": "1992",
         "wide": true
     },
     {
@@ -89,7 +89,7 @@
         "mascot": "ucsc_mascot.png",
         "banner": "ucsc_banner.png",
         "website": "https://linktr.ee/sluganime",
-        "join": "Jan. 1993"
+        "join": "1993"
     },
     {
         "name": "Trojan Anime Culture",
@@ -98,7 +98,7 @@
         "logo": "usc_logo.png",
         "banner": "usc_banner.jpg",
         "website": "https://www.instagram.com/usc.tac/",
-        "join": "Apr. 1993"
+        "join": "1993"
     },
     {
         "name": "Davis Anime Club",
@@ -107,7 +107,7 @@
         "logo": "davis.png",
         "banner": "davis.png",
         "website": "https://www.facebook.com/davisanimeclub/",
-        "join": "Mar. 2021",
+        "join": "2021",
         "wide": true
     }
 ]
