@@ -21,10 +21,10 @@
     {
         "name": "UCSB Anime Club",
         "location": "University of California, Santa Barbara",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
+        "description": "Your UCSB connection to JP culture!",
         "logo": "gamma.jpg",
         "banner": "gamma.jpg",
-        "website": "https://www.facebook.com/ucsb.anime",
+        "website": "https://linktr.ee/ucsbanimeclub",
         "join": "1990",
         "wide": true
     },
@@ -56,7 +56,8 @@
         "logo": "ucr_logo.png",
         "banner": "ucr_banner.png",
         "website": "https://www.instagram.com/greenwoodanimesociety",
-        "join": "2021"
+        "join": "2021",
+        "mascot_credit": "@_PuruPan"
     },
     {
         "name": "Japanese Animation Club (JAC)",
@@ -84,12 +85,13 @@
         "name": "Slug Anime and Manga Association @ UCSC",
         "location": "University of California, Santa Cruz",
         "description": "SAMA, short for Slug Anime and Manga Association, is UCSC's anime club! All types of fans of all anime, manga, games, and culture are welcome! We host weekly meetings, events, and artist alleys year-round! Follow us on Instagram or join our Discord server!",
-        "logo": "ucsc_logo.jpg",
+        "logo": "ucsc_logo.png",
         "mascot_name": "Mari",
         "mascot": "ucsc_mascot.png",
         "banner": "ucsc_banner.png",
         "website": "https://linktr.ee/sluganime",
-        "join": "1993"
+        "join": "1993",
+        "mascot_credit": "@nekorichi"
     },
     {
         "name": "Trojan Anime Culture",

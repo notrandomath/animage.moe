@@ -12,7 +12,7 @@
             </div>
             <div class="info">
                 <p class="websiteText">Website: <a :href="member.website">{{ member.website }}</a></p>
-                <p v-if="member.mascot_name">Mascot: {{ member.mascot_name }}</p>
+                <p v-if="member.mascot_name">Mascot: {{ member.mascot_name }}<credit v-if="member.mascot_credit"> by {{ member.mascot_credit }}</credit></p>
                 <p class="description">{{ member.description }}</p>
             </div>
         </div>
@@ -35,7 +35,7 @@
 }
 .info {
     margin: 2%;
-    border: 2px solid white;
+    border: 2px solid var(--logoColor);
     padding: 2%;
 }
 .frame{
@@ -73,7 +73,7 @@ img {
     min-width: 0;
     object-fit: contain;
     @media screen and (max-width: 700px) {
-        margin: 10px;
+        margin: 5px;
     }
 }
 a {
@@ -111,6 +111,11 @@ h2 {
 }
 h5 {
     margin: 0;
+    font-size: 20px;
+    @media screen and (max-width: 700px) {
+        font-size: 16px;
+        text-align: center;
+    }
 }
 p {
     font-size: 20px;
