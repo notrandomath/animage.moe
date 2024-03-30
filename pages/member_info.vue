@@ -11,7 +11,7 @@
                 <img v-if="member.mascot" class="mascotImage" :src="'club_logos/' + member.mascot" alt="pic">
             </div>
             <div class="info">
-                <p class="websiteText">Website: <a :href="member.website">{{ member.website }}</a></p>
+                <p class="websiteText">Main page: <a :href="member.website">{{ member.website }}</a></p>
                 <p v-if="member.mascot_name">Mascot: {{ member.mascot_name }}<credit v-if="member.mascot_credit"> by {{ member.mascot_credit }}</credit></p>
                 <p class="description">{{ member.description }}</p>
             </div>
