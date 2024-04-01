@@ -2,7 +2,7 @@
     {
         "name": "Cal Animage Alpha",
         "location": "University of California, Berkeley",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
+        "description": "Awaiting more input for this page from club officers!",
         "logo": "alpha.png",
         "banner": "alpha.png",
         "website": "https://cal.moe/",
@@ -12,11 +12,12 @@
     {
         "name": "Anime & Manga Enthusiasts",
         "location": "University of California, San Diego",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
+        "description": "Awaiting more input for this page from club officers!",
         "logo": "beta.png",
-        "banner": "beta.png",
+        "banner": "ucsd_banner.png",
         "website": "https://ucsd.moe/",
-        "join": "1990"
+        "join": "1990",
+        "misc_credit": "Karaoke Promotional Art by maomao"
     },
     {
         "name": "UCSB Anime Club",
@@ -33,7 +34,8 @@
         "location": "University of California, Irvine",
         "description": "Cal Animage Epsilon and home of the Anime Anteaters since 1990! If you like anime and all of its related hobbies — like manga, cosplay, or art — then consider us an ally!",
         "logo": "uci_logo.png",
-        "mascot_name": "Shoko",
+        "mascot_name": "Shoko Zotari",
+        "mascot_credit": "@ArtistYOU & Shoko Y.",
         "mascot": "uci_mascot.png",
         "banner": "uci_banner.png",
         "website": "https://uci.moe/",
@@ -42,7 +44,7 @@
     {
         "name": "Anime & Manga Club @ SDSU",
         "location": "San Diego State University",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
+        "description": "Awaiting more input for this page from club officers!",
         "logo": "sdsu.png",
         "banner": "sdsu.png",
         "website": "https://anime.sdsu.edu/",
@@ -57,6 +59,7 @@
         "banner": "ucr_banner.png",
         "website": "https://www.instagram.com/greenwoodanimesociety",
         "join": "2021",
+        "mascot_name": "Kilt-chan",
         "mascot_credit": "@_PuruPan"
     },
     {
@@ -105,11 +108,11 @@
     {
         "name": "Davis Anime Club",
         "location": "University of California, Davis",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ut necessitatibus voluptas quibusdam sed dolorum, natus voluptatem autem dolore dolor quisquam aliquid saepe iste quis iure, eveniet possimus expedita molestiae.",
+        "description": "Awaiting more input for this page from club officers!",
         "logo": "davis.png",
         "banner": "davis.png",
         "website": "https://www.facebook.com/davisanimeclub/",
-        "join": "2021",
+        "join": "1992",
         "wide": true
     }
 ]

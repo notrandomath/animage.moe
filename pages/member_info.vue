@@ -13,6 +13,7 @@
             <div class="info">
                 <p class="websiteText">Main page: <a :href="member.website">{{ member.website }}</a></p>
                 <p v-if="member.mascot_name">Mascot: {{ member.mascot_name }}<credit v-if="member.mascot_credit"> by {{ member.mascot_credit }}</credit></p>
+                <p v-if="member.misc_credit">{{ member.misc_credit }}</p>
                 <p class="description">{{ member.description }}</p>
             </div>
         </div>
@@ -34,6 +35,7 @@
     }
 }
 .info {
+    max-width: 95%;
     margin: 2%;
     border: 2px solid var(--logoColor);
     padding: 2%;
@@ -72,12 +74,11 @@ img {
     max-width: 100%;
     min-width: 0;
     object-fit: contain;
-    @media screen and (max-width: 700px) {
-        margin: 5px;
-    }
+    margin: 5px;
 }
 a {
     text-decoration: none;
+    word-break: break-all;
 }
 button {
     cursor: pointer;

@@ -36,6 +36,7 @@ button{
     background-color: var(--textColor);
 }
 h3{
+    margin: 2px;
     text-align: center;
     font-size: 10px;
     width: 100%;
