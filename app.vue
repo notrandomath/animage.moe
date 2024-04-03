@@ -36,10 +36,10 @@ body {
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Animage.moe',
-  ogTitle: 'Animage.moe',
-  description: 'The official CalAnimage Network site',
-  ogDescription: 'The official CalAnimage Network site',
+  title: 'Cal Animage Network',
+  ogTitle: 'Cal Animage Network',
+  description: "Official website of the Cal Animage system, the world's largest association of anime clubs standing since 1989!",
+  ogDescription: "Official website of the Cal Animage system, the world's largest association of anime clubs standing since 1989!",
   ogImage: 'https://animage.moe/logo.png',
   twitterCard: 'summary_large_image',
 })
