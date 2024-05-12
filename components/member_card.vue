@@ -7,15 +7,15 @@ export default {
 </script>
 
 <template>
-    <NuxtLink :to="{ path: 'member_info', query: {index: index}}" :member="member">
+    <NuxtLink :to="{ path: 'member_info', query: {index: index, affiliate: member.affiliate}}" :member="member">
         <div class="card">
             <div class="imgContainer">
-                <img :src="'club_logos/' + member.banner" alt="pic" :class="{ active: member.wide }">
+                <img :src="(member.affiliate ? 'affiliate_logos/' : 'club_logos/') + member.banner" alt="pic" :class="{ active: member.wide }">
             </div>
             <h2 class="name">{{ member.name }}</h2>
         </div>
     </NuxtLink>
-    <h2>{{ member.location }}</h2>
+    <h2>{{ member.affiliate ? member.subtext : member.location }}</h2>
 </template>
 
 <style scoped>

@@ -12,6 +12,12 @@
                 <MemberCard class="card" :member="member" :index="index"></MemberCard>
             </div>
         </div>
+        <h1>Affiliates</h1>
+        <div class="grid">
+            <div class="content" v-for="(member, index) in affiliate_data">
+                <MemberCard class="card" :member="member" :index="index"></MemberCard>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -52,10 +58,12 @@ h1 {
 
 <script>
 import MEMBER_DATA from '../member_data.json';
+import AFFILIATE_DATA from '../affiliate_data.json'
 export default{
     data(){
         return{
-            member_data: MEMBER_DATA
+            member_data: MEMBER_DATA,
+            affiliate_data: AFFILIATE_DATA
         }
     }
 }

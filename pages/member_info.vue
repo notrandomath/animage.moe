@@ -2,19 +2,20 @@
     <div class="memberPage">
         <div class="frame">
             <h1>{{ member.name }}</h1>
-            <div>
+            <div v-if="!member.affiliate">
                 <h5>Est. {{ member.join }}</h5>
                 <h5>Location: {{ member.location }}</h5>
             </div>
             <div class="artworksFrame">
-                <img class="logoImage" :src="'club_logos/' + member.logo" alt="pic">
-                <img v-if="member.mascot" class="mascotImage" :src="'club_logos/' + member.mascot" alt="pic">
+                <img class="logoImage" :src="(member.affiliate ? 'affiliate_logos/' : 'club_logos/') + member.logo" alt="pic">
+                <img v-if="member.mascot" class="mascotImage" :src="(member.affiliate ? 'affiliate_logos/' : 'club_logos/') + member.mascot" alt="pic">
             </div>
             <div class="info">
                 <p class="websiteText">Main page: <a :href="member.website">{{ member.website }}</a></p>
                 <p v-if="member.mascot_name">Mascot: {{ member.mascot_name }}<credit v-if="member.mascot_credit"> by {{ member.mascot_credit }}</credit></p>
                 <p v-if="member.misc_credit">{{ member.misc_credit }}</p>
-                <p class="description">{{ member.description }}</p>
+                <p v-if="!member.affiliate" class="description">{{ member.description }}</p>
+                <h2 v-if="member.affiliate" class="description">{{ member.description }}</h2>
             </div>
         </div>
     </div>
@@ -107,8 +108,10 @@ h1 {
     }
 }
 h2 {
-    text-align: center;
-    text-decoration: none;
+    text-align: left;
+    @media screen and (max-width: 700px) {
+        text-align: center;
+    }
 }
 h5 {
     margin: 0;
@@ -133,16 +136,19 @@ p {
 
 <script>
 import MEMBER_DATA from '../member_data.json';
+import AFFILIATE_DATA from '../affiliate_data.json';
 let index = 0;
+let affiliate = false;
 export default{
     
     setup() {
         const route = useRoute();
         route.query.index ? index = route.query.index : index  = 0;
+        route.query.affiliate ? affiliate = route.query.affiliate : affiliate = false;
     },
     data(){
         return{
-            member: MEMBER_DATA[index],
+            member: affiliate ? AFFILIATE_DATA[index] : MEMBER_DATA[index],
         }
     }
 }
