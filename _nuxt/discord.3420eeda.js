@@ -1,0 +1,1 @@
+import{_ as e,c,d as t,a as r,o}from"./entry.df67ef07.js";const s={},a=r("a",{href:"https://discord.gg/pkC2d4yk9c"},"click here",-1);function d(n,_){return o(),c("h1",null,[t("If you weren't redirected to a Discord Invite "),a])}const f=e(s,[["render",d]]);export{f as default};

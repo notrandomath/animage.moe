@@ -1,1 +1,0 @@
-import{_ as e,c as r,d as t,a as o,o as c}from"./entry.786bcfd9.js";const s={},a=o("a",{href:"https://drive.google.com/drive/folders/1dUDgzFSfjFInY6i3J-MO3w4XOWtjBzeC?usp=sharing"},"click here",-1);function n(d,i){return c(),r("h1",null,[t("If you weren't redirected to the drive link "),a])}const f=e(s,[["render",n]]);export{f as default};
