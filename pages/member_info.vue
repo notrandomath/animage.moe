@@ -128,6 +128,7 @@ p {
         font-size: 16px;
         text-align: center;
     }
+    white-space: pre-line; /* to ensure newlines display properly */
 }
 .description {
     margin-top: 25px;
