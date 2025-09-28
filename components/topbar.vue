@@ -6,7 +6,7 @@
       <div class="normalMenu" v-if="!isMobile">
         <Dropdown class="aboutDrop" @toggle-dropdown="toggleDropdown"/>
         <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/members">Members</NuxtLink></h2>
-        <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/contact">Contact</NuxtLink></h2>
+        <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/faq">FAQ</NuxtLink></h2>
         <div class="boxedText">
             <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/join">Join Us!</NuxtLink></h2>
         </div>
@@ -64,7 +64,7 @@ export default{
     transition: all 0.5s ease-in-out;
   }
   .topbar.active { 
-    height: 250px; /* used to be 350px */
+    height: 200px; /* used to be 350px */
   }
   .logo{
     height: 150px;

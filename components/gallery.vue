@@ -16,15 +16,12 @@ export default {
   
 <style scoped>
   .gallery{
-    width: 49%;
-    @media screen and (max-width: 700px) {
-        margin-bottom: 50px;
-        width: 100%;
-    }
+    margin-bottom: 50px;
+    width: 100%;
   }
   iframe{
     width: 100%;
-    aspect-ratio: 10/7;
+    aspect-ratio: 2;
   }
 </style>
   

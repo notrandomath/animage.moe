@@ -2,10 +2,9 @@
     <div class="separator"></div>
     <div class="footer">
         <div class="left">
-            <h2>Stay in the loop?</h2>
+            <h2>Want to talk?</h2>
             <div class="socials">
                 <NuxtLink style="text-decoration: none; color: inherit;" to="/discord"><Icon name="ic:baseline-discord" color="var(--logoColor)" size="30px"/></NuxtLink>
-                <NuxtLink style="text-decoration: none; color: inherit;" to="/instagram"><Icon name="mdi:instagram" color="var(--logoColor)" size="30px"/></NuxtLink>
                 <NuxtLink style="text-decoration: none; color: inherit;" to="/email"><Icon name="mdi:email" color="var(--logoColor)" size="30px"/></NuxtLink>
             </div>
         </div>
@@ -78,8 +77,8 @@ h3{
     width: 110px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: space-between;
+    justify-content: center;
+    gap: 10px;
     @media screen and (max-width: 700px) {
         align-self: center;
         justify-self: center;
@@ -108,8 +107,8 @@ h3{
     }
 }
 h2{
-    width: fit-content;
-    text-align: left;
+    width: 110px;
+    text-align: center;
     font-size: 15px;
     @media screen and (max-width: 700px) {
         text-align: center;

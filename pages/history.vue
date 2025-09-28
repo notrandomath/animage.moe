@@ -9,7 +9,7 @@
                 and <a href="https://apricot.com/~shogun/C-A.html">https://apricot.com/~shogun/C-A.html</a>
                 for old sources overviewing the origins of Cal Animage.
             </p>
-            <p>Do you know something about Cal Animage’s past that you could help tell the world? Please contact us, and help us tell the story of Animage’s early anime clubs!</p>
+            <p>Do you know something about Cal Animage's past that you could help tell the world? Please contact us, and help us tell the story of Animage's early anime clubs!</p>
         </div>
     </div>
 </template>

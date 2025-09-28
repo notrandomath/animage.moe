@@ -30,7 +30,6 @@ export default {
         <transition name="fade" appear>
             <div class="sub-menu" v-if="showDropdown">
                 <h2 key="1"><NuxtLink style="text-decoration: none; color: inherit;" to="/history">History</NuxtLink></h2>
-                <h2 key="2"><NuxtLink style="text-decoration: none; color: inherit;" to="/faq">FAQ</NuxtLink></h2>
                 <h2 key="3"><NuxtLink style="text-decoration: none; color: inherit;" to="/docs">Official Documents</NuxtLink></h2>
             </div>
         </transition>
@@ -57,6 +56,10 @@ export default {
     .fade-enter-active,
     .fade-leave-active {
         transition: all 0.25s ease-out;
+    }
+
+    .fade-enter-active {
+      transition-delay: 0.2s;
     }
 
     .fade-enter-from,

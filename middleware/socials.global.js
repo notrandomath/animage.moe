@@ -10,7 +10,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
         })
       }
       if (to.path == '/email') {
-        return navigateTo('https://forms.gle/LXENcsJsR8k3XD2E9', {
+        return navigateTo('mailto:AnimageNetwork@gmail.com', {
           external: true
         })
       }

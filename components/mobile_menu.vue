@@ -2,7 +2,7 @@
   <div class="sidebar" :class="{ active: showSidebar }">
     <Dropdown class="aboutDropdown"/>
     <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/members">Members</NuxtLink></h2>
-    <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/contact">Contact</NuxtLink></h2>
+    <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/faq">FAQ</NuxtLink></h2>
     <div class="boxedText">
       <h2><NuxtLink style="text-decoration: none; color: inherit;" to="/join">Join Us!</NuxtLink></h2>
     </div>
