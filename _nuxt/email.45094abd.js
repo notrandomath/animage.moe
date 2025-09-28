@@ -1,0 +1,1 @@
+import{_ as e,c as n,o}from"./entry.8918adec.js";const t={};function c(a,r){return o(),n("h1",null,"To contact the Animage network, send an email to AnimageNetwork@gmail.com")}const s=e(t,[["render",c]]);export{s as default};
