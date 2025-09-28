@@ -2,9 +2,8 @@
   <ScrollingCards></ScrollingCards>
   <Mission></Mission>
   <!-- <Newsletter></Newsletter> (uncomment when newsletter embed is ready) -->
-  <h1>Animage in Action!</h1>
-  <div class="galleries">
-    <Gallery source="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJoiRGWTx0i6eEcFKQFNPTnAcC6ADlQy4YjY0aBq_S6ojFJgJnfkdyaDJTfNLNg6wd_kGpkUFiN9Vj/pubhtml?widget=true&amp;headers=false" caption="Official Member Sheet"></Gallery>
+  <div class="member_sheet_container">
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTJoiRGWTx0i6eEcFKQFNPTnAcC6ADlQy4YjY0aBq_S6ojFJgJnfkdyaDJTfNLNg6wd_kGpkUFiN9Vj/pubhtml?widget=true&amp;headers=false"></iframe>
   </div>
   <Map></Map>
 </template>
@@ -13,17 +12,26 @@
 h1 {
   margin-top: 50px;
 }
-.galleries{
+.member_sheet_container{
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 5%;
   width: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  @media screen and (max-width: 700px) {
-    flex-direction: column;
-  }
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 590px;
+  bottom: 10px
+}
+
+iframe{
+  width: 99%;
+  aspect-ratio: 2;
+  position: absolute;
+  top: -30px;
+  height: 600px;
 }
 </style>
 
