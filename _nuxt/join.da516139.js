@@ -1,0 +1,3 @@
+import{_ as r,c as s,o as a,F as c,p as n,f as _,a as o}from"./entry.5a25db0e.js";const d={},t=e=>(n("data-v-e357f405"),e=e(),_(),e),i=t(()=>o("h1",null,"We invite your club to join our network of anime clubs from all over the world!!",-1)),f=t(()=>o("div",{class:"formFrame"},[o("iframe",{src:"https://docs.google.com/forms/d/e/1FAIpQLSfBUbGTA_girhfhh714qCrTXzgtWGqhnWK3epxRFmCCiMqOSQ/viewform?embedded=true",width:"640",height:"1785",frameborder:"0",marginheight:"0",marginwidth:"0"},`
+            Loading…
+        `)],-1));function h(e,m){return a(),s(c,null,[i,f],64)}const p=r(d,[["render",h],["__scopeId","data-v-e357f405"]]);export{p as default};
